@@ -1,2 +1,2 @@
-# gorm-without-grails
-Using gorm without using grails
+# gorm-ratpack
+Using gorm with Ratpack
