@@ -6,7 +6,7 @@ Replace the content of `src/ratpack/Ratpack.groovy`.
 include::{sourceDir}/src/ratpack/Ratpack.groovy[]
 ----
 
-The previous code registers the `Module` which configures GORM, the `Service` which populates the database on start-up and the `Handler which handles the app.
+The previous code registers the `Module` which configures GORM, the `Service` which populates the database on start-up and the `Handler`.
 
 Run the app: 
 
