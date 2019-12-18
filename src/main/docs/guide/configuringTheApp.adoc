@@ -3,6 +3,7 @@ Edit _build.gradle_ file to include GORM dependencies.
 [source,groovy]
 .build.gradle
 ----
+include::{sourceDir}/build.gradle[tag=repositories]
 include::{sourceDir}/build.gradle[tag=dependencies]
 ----
 

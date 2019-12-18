@@ -2,11 +2,12 @@ plugins {
     id "io.ratpack.ratpack-groovy" version "1.7.5"
 }
 
+//tag::repositories[]
 repositories {
   jcenter()
   maven { url "https://repo.grails.org/grails/core" }
 }
-
+//end::repositories[]
 //tag::dependencies[]
 dependencies {
     compile "org.grails:grails-datastore-gorm-hibernate5:7.0.1.RELEASE"
